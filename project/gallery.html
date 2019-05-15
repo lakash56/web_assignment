@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Final project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<link rel="shortcut icon"  href="images/logo.png">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<script src="js/lightbox.js"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="js/html2canvas.js"></script>
+  <script>
+  	function getScreen(){
+  		html2canvas(document.body,{
+  			dip:192,
+  			onrendered: function(canvas){
+  				console.log(canvas.toDataURL("image/png"));
+  			}
+  		})
+  	}
+  </script>
+
+</head>
+<body>
+
+	<!--header-->
+	<!--navigation Bar-->
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo-Home"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="services.html">Services</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link active" href="gallery.html">Gallery</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../home.html">Goback</a>
+							</li>
+							
+						</ul>
+					</div>
+			</div>
+			
+		</nav>
+<!--navbar close-->
+
+<section id="main" class="p-4">
+	<div class="container text-center">
+		<h1>Gallery</h1>
+		<hr>
+		<div class="row">
+			<div class="col-md-3"><a href="images/1.jpg" data-lightbox="gallery">
+				<img src="images/1.jpg" alt="img">
+			</a></div>
+			<div class="col-md-3">
+				<a href="images/3.jpg" data-lightbox="gallery">
+				<img src="images/3.jpg" alt="img">
+			</a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/4.jpg" data-lightbox="gallery">
+				<img src="images/4.jpg" alt="img">
+			</a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/5.jpg" data-lightbox="gallery">
+				<img src="images/5.jpg" alt="img">
+			</a>
+			</div>
+		</div>
+
+			<div class="row" style="margin-top: 20px;">
+			<div class="col-md-3"><a href="images/6.jpg" data-lightbox="gallery">
+				<img src="images/6.jpg" alt="img">
+			</a></div>
+			<div class="col-md-3">
+				<a href="images/7.jpg" data-lightbox="gallery">
+				<img src="images/7.jpg" alt="img">
+			</a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/back1.jpg" data-lightbox="gallery">
+				<img src="images/back1.jpg" alt="img">
+			</a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/back3.jpg" data-lightbox="gallery">
+				<img src="images/back3.jpg" alt="img">
+			</a>
+			</div>
+		</div>
+	</div>
+	
+</section>
+<!--btn-->
+<div class="container-fluid">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<a href="javascript:window.print();" class="btn btn-lg btn-block btn-outlin-success">Print Screen</a>
+		</div>
+	</div>
+</div>
+
+<!--footer-->
+	<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+				<div class="col-md-4">
+					<img src="images/logo.png" alt="logo">
+					<hr class="light">
+					<p>+977-9860802178</p>
+					<p>lakashmaharjan@gmail.com</p>
+					<p>Imadol,Nepal</p>
+					<p>kathmandu,State 3,00000</p>
+				</div>	
+				<div class="col-md-4">
+					<hr class="light">
+					Office Hour
+					<hr class="light">
+					<p>Staurday: close</p>
+					<p>Sunday to Thursday:10am to 5pm,</p>
+					<p>Friday :10am to 3pm </p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					Service Area
+					<hr class="light">
+					<p>Street ,00000</p>
+					<p>Street ,00000</p><p>Street ,00000</p>
+				</div>	
+				<div class="col-12">
+					<hr class="light-100">
+					<h5>&copy; www.Nepalecocitynetwork.com.np</h5>
+				</div>	
+		</div>
+		
+	</div>
+	</footer>
+	<!--footer close-->
+<!--footer close-->
+</body>
+</html>

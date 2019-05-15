@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins' , sans-serif;
+	color: #222;
+}
+.navbar{
+	padding: .8rem;
+}
+.navbar-nav li{
+	padding-right: 20px;
+}
+.nav-link{
+	font-size:  1.1em !important; 
+
+}
+.carousel-inner img{
+	width: 100%;
+	height:100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%;);
+}
+.carousel-caption h1{
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+	text-shadow: 1px 1px 10px #000;
+}
+.btn.primary:hover{
+	background-color: #563D7C;
+}
+.jumbotorn{
+	padding:1em;
+	border-radius: 0;
+}
+
+.padding{
+	padding-bottom: 2rem;
+}
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr{
+ border-top: 2px solid #b4b4b4;
+ width: 95%;
+ margin-top: .3rem;
+ margin-bottom: 1rem;   
+}
+#social .fa-facebook-f{
+	color: blue;
+}
+#social .fa-envelope{
+	color:red;
+}
+#social .fa-google{
+	color: green;
+}
+#social .fa-facebook-f,#social .fa-envelope,#social .fa-google{
+	font-size: 4em;
+	margin: 1rem;
+}
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+hr .light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+footer a{
+	color: #d5d5d5;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+#showcase {
+	margin-top: 20px;
+}
+#showcase h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+#showcase img{
+	width: 75%;
+	margin-left: 60px;
+}
+#showcase .showcase-right{
+	margin-top: 90px;
+}
+#testimonial{
+	background-color: #f1f1f1;
+	padding: 50px 0 30px 0;
+	text-align: center;
+	margin-top: 40px; 
+}
+#testimonil p{
+	font-size: 2em;
+	color: #000;
+
+}
+#testimonial p.customer{
+	font-size: 1.2em;
+	color: #666;
+}
+#info1
+{
+	margin-bottom: 20px;
+}
+#info1 .info-right {
+  margin-top: 90px;
+}
+/*-----para----*/
+#para{
+	background: url(../images/para.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wtitle{
+	padding-top: 150px;
+
+}
+.wtitle h2{
+		font-size: 2em;
+		font-weight: bold;
+
+
+}
+#main img{
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+}
+#main a{
+	width: 100%;
+	height: 100%;
+}
+#main img:hover{
+	transform: scale(1.1);
+}
+#page h1{
+	color:#05c9eaf0
+}
+#page .fa-facebook-f{
+	color: #3f729b;
+}
+#page .fa-instagram{
+	color:#8a3ab9;
+}
+#page .fa-twitter{
+	color: #00abff;
+}
+#page .fa-facebook-f,#page .fa-instagram,#page .fa-twitter{
+	font-size: 4rem;
+	margin: 1rem;
+}
+#page{
+	margin-bottom: 0.8em;
+}
+#services h1,#services h4{
+ color: #4c4c4c;
+ margin: 20px 0px 20px; 
+}
+#services p{
+	color:#737373;
+	font-size: 0.9em;
+}
+.courses{
+	padding: 50px 0px 80px;
+	background-color: #3399ff;
+	color: #FFF;
+}
+.courses .package{
+	padding: 30px;
+	border:1px solid #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.package li{
+	display: block;
+	padding: 5px;
+}
+.package h1,.package h4,.package strong{
+ color: #4c4c4c;
+}
+.package p, .package li{
+	color: #737373;
+}
+
+#first .close:hover{
+	color: red;
+}
+ 
+    #gallery {
+      background: #262626;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      background: #fff;
+    }
+/*--------------------------------------------------*/
+@media (max-width: 768px;){
+	.carousel-caption{
+	 
+	top:45%;
+	
+}
+.carousel-caption h1{
+	font-size: 350%;
+	
+}
+.carousel-caption h3{
+	font-size: 140%;
+	font-weight: 400;
+}
+.carousel-caption .btn{
+	font-size: 95%;
+	padding: 8px 14px;
+}
+.dispay-4{
+	font-size: 200%;
+}
+#services{
+	padding: 30px;
+}
+.courses{
+	padding: 30px;
+}
+.package{
+	width: 80px;
+	margin-right: 25px; 
+}
+
+}
+@media (max-width: 576px;){
+	.carousel-caption{
+	 
+	top:45%;
+	
+}
+.carousel-caption h1{
+	font-size: 250%;
+	
+}
+.carousel-caption h3{
+	font-size: 110%;
+	font-weight: 400;
+}
+.carousel-caption .btn{
+	font-size: 90%;
+	padding: 4px 8px;
+}
+}

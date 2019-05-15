@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Final project</title>
+	<link rel="shortcut icon"  href="images/logo.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/my.js"></script>
+</head>
+<body>
+
+	<!--header-->
+	<!--navigation Bar-->
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo-Home"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="Services.html">Services</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="gallery.html">Gallery</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link active" href="contact.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../home.html">Goback</a>
+							</li>
+							
+						</ul>
+					</div>
+			</div>
+			
+		</nav>
+		<!--nav close-->
+		<!--main-->
+		<section id="first">
+			<div class="container text-center">
+				<h3>Wlecome to Eco-city Builder</h3>
+					<div class="row welcome text-center">
+			<div class="col-md-12">
+				<section id="scroll">
+				
+				<h5> Register Now!</h5>
+
+				<hr>
+				<button class="btn btn-success" data-target="#mybutton" data-toggle="modal">Register</button>
+				</section>
+				<div class="modal" id="mybutton">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="text-primary">Register Now</h3>
+								<button class="close" type="button" data-dismiss="modal">&times; </button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+										<label><i class="fa fa-user "></i> User Name</label>
+										<input type="text" class="form-control">
+									</div>
+									<div class="row">
+										<div class="form-group col-md-6 col-sm-12">
+										<label><i class="fa fa-lock "></i> Password</label>
+										<input type="password"  class="form-control">
+									</div>
+										<div class="form-group col-md-6 col-sm-12">
+										<label><i class="fa fa-envelope "></i> Email</label>
+										<input type="email"  class="form-control"/>
+									</div>
+									</div>
+									<div class="row">
+									<div class="form-group col-md-6 col-sm-12">
+										<label><i class="fa fa-mobile"></i>Mobile</label>
+										<input type="number"  class="form-control">
+									</div>
+									<div class="form-group col-md-6 col-sm-12">
+										<label><i class="fa fa-map"></i>Address</label>
+										<input type="text"  class="form-control">
+									</div>
+									</div>
+								</form>
+								<button class="btn btn-primary" onclick="goback()">Register</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		</section>
+		<!--Register close -->
+		<section id="para" style="margin-top: 2em">
+			<div class="container-fluid padding">
+				<div class="wtitle text-center text-light">
+					<h2>We are Ecocity builders. We try to build Smart <br/>and Environment Friendly city.</h2>
+				</div>
+			</div>
+		</section>
+			<section id="contact">
+				<div class="container-fluid">
+					<div class="row welcome">
+						<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 ">
+							<h3>Sign in Form</h3>
+							<p class="text-left">This is Sign in form.Fill up the Form with every details required.Get a Chance to be part of Eco-city Builders. Get a world class certification and enhance your Carear</p>
+							<h4>Our location</h4>
+							<hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2362849393985!2d85.32196843581617!3d27.673009750068275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19cf675c2541%3A0x62acb4eed7bb4d6b!2zMjfCsDQwJzI5LjIiTiA4NcKwMTknMjQuOSJF!5e0!3m2!1sen!2snp!4v1557452980002!5m2!1sen!2snp"  style="border:0" allowfullscreen></iframe>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+							<div class="row">
+								<form onsubmit="return registerform()">
+								<div class="form-group">
+    							<label>Name</label>
+							    <input type="text" class="form-control" id="name" placeholder="Enter Name">
+  								</div>
+
+  								<div class="form-group">
+    							<label >Email address</label>
+							    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+    							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  								</div>
+
+  								<div class="form-group">
+   								 <label>Password</label>
+    								<input type="password" class="form-control" id="password" placeholder="Password">
+  									</div>
+  								<div class="form-check">
+   								 <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    						<label class="form-check-label" for="exampleCheck1">Check me out</label>
+ 								 </div>
+ 								 <input type="submit" class="btn btn-primary" value="Submit" name="submit" >
+									</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+		<!--main-->
+<hr>
+<section id="page">
+<div class="container text-center welcome">
+<div class="row text-center">
+	<div class="com-md-12" style="margin: auto auto;">
+		<h1>Get Connected With US</h1>
+		<hr>
+	</div>
+</div>
+	<div class="row ">
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<i class="fab fa-instagram"></i>
+			<h3>Instagram</h3>
+			<p>Follow us on instagram</p>
+			<a href="https://www.instagram.com/" class="btn btn-primary"  target="blank" style="background-color: #8a3ab9;">Follow Us</a>
+		</div>
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<i class="fab fa-facebook-f"></i>
+			<h3>Facebook</h3>
+			<p>Like us on Facebook</p>
+			<a href="https://www.facebook.com" class="btn btn-primary" target="blank" style="background-color: #3f729b;">Like Us</a>
+		</div>
+		<div class="col-md-4 col-sm-12 col-xs-12">
+			<i class="fab fa-twitter"></i>
+			<h3>Twitter</h3>
+			<p>Follow us on instagram</p>
+			<a href="https://twitter.com/" class="btn btn-primary"  target="blank" style="background-color: #00abff;">Follow Us</a>
+		</div>
+	</div>
+	
+</div>
+</section>
+		<!--footer-->
+	<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+				<div class="col-md-4">
+					<img src="images/logo.png" alt="logo">
+					<hr class="light">
+					<p>+977-9860802178</p>
+					<p>lakashmaharjan@gmail.com</p>
+					<p>Imadol,Nepal</p>
+					<p>kathmandu,State 3,00000</p>
+				</div>	
+				<div class="col-md-4">
+					<hr class="light">
+					Office Hour
+					<hr class="light">
+					<p>Staurday: close</p>
+					<p>Sunday to Thursday:10am to 5pm,</p>
+					<p>Friday :10am to 3pm </p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					Service Area
+					<hr class="light">
+					<p>Street ,00000</p>
+					<p>Street ,00000</p><p>Street ,00000</p>
+				</div>	
+				<div class="col-12">
+					<hr class="light-100">
+					<h5>&copy; www.Nepalecocitynetwork.com.np</h5>
+				</div>	
+		</div>
+		
+	</div>
+	</footer>
+	<!--footer close-->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script>
+  window.sr = ScrollReveal();
+		sr.reveal('.navbar',{
+			duration:2000,
+			origin:'bottom'
+
+		});
+		sr.reveal('#page',{
+			duration:1000,
+			origin:'left',
+			distance: '300px'
+		});
+		
+		sr.reveal('#contact',{
+			duration:2000,
+			distance: '300px',
+			origin: 'right'
+		});
+
+		sr.reveal('#scroll',{
+			duration:2000,
+			distance: '300px',
+			origin: 'top'
+		});
+  </script>
+</body>
+</html>
